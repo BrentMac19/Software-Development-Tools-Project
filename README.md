@@ -1,4 +1,5 @@
 # Software-Development-Tools-Project
+https://software-development-tools-project-6885.onrender.com
 #------------------------------------------------------------------------------------------------------------------------#
 #Welcome to my Application!
 The purpose of this application was to read data provided in a CSV file that has information of US car Advertisments,
@@ -27,17 +28,25 @@ What is the distribution between the Vehicles MODEL_YEAR?
 #------------------------------------------------------------------------------------------------------------------------#
 #APP.PY
 <------Header------->
+
 When the application is launched you should see a title called "US Car Market Data"
 followed by a description of where the data was retrieved
 below will be an About drop list that you can click and it will share some information about the application
+
 <-----Body----------->
+
 The body begins with displaying the dataset for the user to see to familiarize themselves with the data that was provided, we can see what information is being compared at hand before graphs are displayed
+
 #scatterplot
 After that we get a brief description of the scatterplots correlation and the results of the graph explaining the correlation between the PRICE AND ODOMETER, The graph will have a Title called "Correlation between Price vs. Odometer"
+
 the graph has a legend which shows it is color cordinated by Condition of the car, this legend is interactive and if clicked upon will remove selected conditon from the graph, if clicked again that data will reload to the plot.
+
 #histogram
+
 After the scatter plot we will see another brief description of the histogram and its results. The histogram is looking for the disribution of the MODEL_YEAR and is color cordinated by vehicle TYPE which is also a fully interactive legend that will update the histogram as you filter TYPE.
 #sidebar
+
 The histogram model can also be changed using the side bar funtion to remove outliers of the function, you can see the data is drastically skewed to the right, and it is hard to visualize the data with the effect of the outliers. so we can filter them out using the check box funtionaility. click the arrow opening the side bar and you will see a descprition of the outlier checkbox removale, if you cick the check box it will filter all the data for the model year from 1990 and greater (to 2019).
 
 
