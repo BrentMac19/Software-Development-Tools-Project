@@ -20,10 +20,14 @@ What you will find in this repositiory is the enviroment necessary to run the ap
 
 enviornment was created using .venv, the necessary packages for this project will be:
 
-PANDAS 
+PANDAS
+
 PLOTLY.EXPRESS
+
 STREAMLIT
+
 IPYKERNEL
+
 NBFORMAT
 
 #------------------------------------------------------------------------------------------------------------------------#
