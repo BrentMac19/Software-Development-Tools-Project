@@ -1,0 +1,5 @@
+pandas==2.2.3
+plotly-express==0.4.1
+streamlit==1.40.2
+ipykernel==6.29.5
+nbformat==5.10.4
